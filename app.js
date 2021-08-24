@@ -363,7 +363,7 @@ function init(){document.siteName=$("title").html();$("body").addClass(`mdui-the
 		<div id="content" class="nexmoe-item"></div>
 	 	<div id="readme_md" class="mdui-typo nexmoe-item" style="display:none; padding: 20px 0;"></div>
   </div>
-  <div class="mdui-center mdui-text-center mdui-text-color-blue-grey-5001 dummyclass" style="margin-bottom: 20px">Devloped by <a href="https://instagram.com/curious_harshit">curious_harshit</a></div>
+  <div class="mdui-center mdui-text-center mdui-text-color-blue-grey-5001 dummyclass" style="margin-bottom: 20px"><p style="font-size:30px">Developed by <a href="https://instagram.com/curious_harshit">curious_harshit</a></p></div>
 </div>
 	`;$("body").html(html);}
 const Os={isWindows:navigator.platform.toUpperCase().indexOf("WIN")>-1,isMac:navigator.platform.toUpperCase().indexOf("MAC")>-1,isMacLike:/(Mac|iPhone|iPod|iPad)/i.test(navigator.platform),isIos:/(iPhone|iPod|iPad)/i.test(navigator.platform),isMobile:/Android|webOS|iPhone|iPad|iPod|iOS|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent),};function getDocumentHeight(){var D=document;return Math.max(D.body.scrollHeight,D.documentElement.scrollHeight,D.body.offsetHeight,D.documentElement.offsetHeight,D.body.clientHeight,D.documentElement.clientHeight);}
